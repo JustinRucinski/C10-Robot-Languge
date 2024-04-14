@@ -19,10 +19,10 @@ document.addEventListener('DOMContentLoaded', function() {
         name.textContent= user.name;
 
         const username =document.createElement('p');
-        username.textContent= `UserName ${user.username}`;
+        username.textContent= `Username: ${user.username}`;
 
         const email =document.createElement('p');
-        email.textContent= `UserName ${user.email}`;
+        email.textContent= `Email: ${user.email}`;
 
         card.appendChild(name)
         card.appendChild(username)
